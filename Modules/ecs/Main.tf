@@ -252,8 +252,8 @@ resource "aws_ecs_task_definition" "e-learning-td" {
       name      = "e-learning-web"
       cpu       = 10
       memory    = 256
-      # image     = "sarforomusa/novalearning:v1"
-      image     = "958654034905.dkr.ecr.us-east-1.amazonaws.com/elearning-repo:latest"
+      image     = "958654034905.dkr.ecr.us-east-1.amazonaws.com/kwabenasarfo:latest"
+      #image     = "958654034905.dkr.ecr.us-east-1.amazonaws.com/elearning-repo:latest"
       essential = true
       portMappings = [
         {
