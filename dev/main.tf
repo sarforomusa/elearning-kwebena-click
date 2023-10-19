@@ -1,6 +1,6 @@
 #Provider
 provider "aws" {
-  region = "us-east-1"
+  region = "us-east-2"
 }
 
 #create vpc
@@ -29,7 +29,6 @@ module "ecs" {
   eaz1                      = module.vpc.eaz1
   eaz2                      = module.vpc.eaz2
   #e-learning-cluster        = var.elearning_certificate.id
-
 
 }
 

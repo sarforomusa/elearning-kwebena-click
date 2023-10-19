@@ -1,4 +1,4 @@
-region              = "us-east-1"
+region              = "us-east-2"
 domain_name         = "kwabena.click"
 vpc-cidr-block      = "10.0.0.0/16"
 pubsub1-cidr-block  = "10.0.1.0/24"

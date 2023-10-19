@@ -1,0 +1,12 @@
+region              = "eu-west-3"
+domain_name         = "kwabena.click"
+vpc-cidr-block      = "12.0.0.0/16"
+pubsub1-cidr-block  = "12.0.1.0/24"
+pubsub2-cidr-block  = "12.0.2.0/24"
+privsub1-cidr-block = "12.0.3.0/24"
+privsub2-cidr-block = "12.0.4.0/24"
+db_user             = "ohemaa"
+db_password         = "sarfo1245"
+fargate_cpu         = 512
+fargate_memory      = 1024
+app_count           = 2
