@@ -21,7 +21,7 @@ module "ecs" {
   pub-sub1                  = module.vpc.pub-sub1
   pub-sub2                  = module.vpc.pub-sub2
   priv-sub1                 = module.vpc.priv-sub1
-  priv-sub2                 = module.vpc.priv-sub2
+  priv-sub2                 = module.vpc.priv-sub2  
   fargate_cpu               = var.fargate_cpu
   fargate_memory            = var.fargate_memory
   app_count                 = var.app_count
